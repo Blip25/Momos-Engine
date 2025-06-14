@@ -149,8 +149,8 @@ class StorageUtil
 enum abstract StorageType(String) from String to String
 {
 	final forcedPath = '/storage/emulated/0/';
-	final packageNameLocal = 'com.mikolka9144.pslice';
-	final fileLocal = 'PSliceEngine';
+	final packageNameLocal = 'blip2025';
+	final fileLocal = 'MomosEngine';
 
 	var EXTERNAL_DATA = "EXTERNAL_DATA";
 	var EXTERNAL = "EXTERNAL";
