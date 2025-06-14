@@ -54,7 +54,7 @@ class FPSCounter extends TextField
 		defaultTextFormat = new TextFormat("_sans", 14, color);
 		width = FlxG.width;
 		multiline = true;
-		text = "FPS: ";
+		text = "EFEPEESE: ";
 
 		times = [];
 	}
