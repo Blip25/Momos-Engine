@@ -103,6 +103,7 @@ class MainMenuState extends MusicBeatState
 				scr = 0;
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.updateHitbox();
+			menuItem.x - 100;
 			//menuItem.screenCenter(X);
 		}
 
