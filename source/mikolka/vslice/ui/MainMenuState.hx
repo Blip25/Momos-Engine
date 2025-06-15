@@ -103,7 +103,7 @@ class MainMenuState extends MusicBeatState
 				scr = 0;
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.updateHitbox();
-			menuItem.screenCenter(X);
+			//menuItem.screenCenter(X);
 		}
 
 		var psychVer:FlxText = new FlxText(0, FlxG.height - 18, FlxG.width, "Psych Engine " + psychEngineVersion, 12);
@@ -213,7 +213,7 @@ class MainMenuState extends MusicBeatState
 								MusicBeatState.switchState(new ModsMenuState());
 							#end
 
-							#if ACHIEVEMENTS_ALLOWED
+							//#if ACHIEVEMENTS_ALLOWED
 							case 'awards':
 								MusicBeatState.switchState(new AchievementsMenuState());
 							#end
