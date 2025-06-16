@@ -155,10 +155,10 @@ class MainMenuState extends MusicBeatState
 		if (!selectedSomethin)
 		{
 			if (controls.UI_UP_P)
-				changeItem(-1);
+				changeItem;
 
 			if (controls.UI_DOWN_P)
-				changeItem(1);
+				changeItem;
 
 			if (controls.BACK)
 			{
@@ -204,7 +204,7 @@ class MainMenuState extends MusicBeatState
 										menuItems.members[i].visible = true;
 										selectedSomethin = false;
 									}
-									changeItem(0);
+									changeItem;
 								});
 								
 							}
@@ -265,7 +265,7 @@ class MainMenuState extends MusicBeatState
 				menuItems.members[curSelected].updateHitbox();
 				menuItems.members[curSelected].screenCenter(X);
 
-				curSelected += huh;
+				curSelected += 0;
 
 				if (curSelected >= menuItems.length) curSelected = 0;
 				if (curSelected < 0) curSelected = menuItems.length - 1;
